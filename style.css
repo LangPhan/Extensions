@@ -1,0 +1,76 @@
+body{
+    background-color:#FFFFD0;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    
+}
+
+h1{
+    text-align: center;
+    color: #f87a7a;
+}
+
+ul{
+    color: #f87a7a;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul li{
+    display: grid;
+    justify-items: center;
+    color: #b3b619;
+    font-weight: lighter;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+input[type="text"]{
+    width: 50vw;
+    border: 1px solid #ecf02f;
+    font-size: 16px;
+    border-radius: 5px;
+    color: brown;
+    background-color: rgb(236, 236, 186);
+    padding: 10px 5px;
+}
+
+button{
+    padding: 10px 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 2px solid #F8F988;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #b3b619;
+}
+button:hover{
+    background-color: #f87a7a;
+}
+
+.search{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+.image{
+    display: grid;
+    justify-content: center;
+}
+.image img{
+    width: 80vw;
+    height: 400px;
+}
+pronunciation-list{
+    margin-right: 45px;
+}
+words-list{
+    margin-right: 45px;
+}
