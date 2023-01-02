@@ -24,7 +24,7 @@ function onClickSearch(){
 const options = {
    method: 'GET',
    headers: {
-      'X-RapidAPI-Key': '499a4a4494msh8afd0875650f690p198f0fjsnb437419c7890',
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'wordsapiv1.p.rapidapi.com'
    }
 };
@@ -64,7 +64,7 @@ function getPronunciation(word){
    const options_img = {
       method: 'GET',
       headers: {
-         'X-RapidAPI-Key': '499a4a4494msh8afd0875650f690p198f0fjsnb437419c7890',
+         'X-RapidAPI-Key': '',
          'X-RapidAPI-Host': 'bing-image-search1.p.rapidapi.com'
       }
    };
